@@ -1,3 +1,5 @@
+
+
 .App {
   text-align: center;
 }
@@ -35,4 +37,70 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(139, 243, 247);
+}
+
+li {
+  float:left;
+}
+
+li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(250, 248, 250);
+}
+
+.active {
+  background-color: #faeff7;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+  input{
+    width: 90% !important;
+  }
+}
+
+nav.navbar.navbar-expand-lg.navbar-light {
+  background-color: #8ee1e7f7;
+}
+
+a.nav-link {
+  margin-right: 10px;
+}
+
+input{
+  border-color: #47a1ab85;
+  border-width: medium;
+  width: 40%;
+}
+
+nav.navbar.navbar-expand.navbar-light {
+  background: turquoise;
+}
+
+a.card-link {
+  font-size: '30px' !important;
+  color: black;
+}
+
+a {
+  color: #0dcaf0;
+  text-decoration: none;
 }
